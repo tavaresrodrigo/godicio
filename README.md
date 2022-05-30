@@ -22,7 +22,7 @@ Searching for the Spanish word "verdad".
 $godicio es verdad
 ```
 
-## Installing Godicio
+## Installing GoDicio
 
 This project uses [GoReleaser](https://goreleaser.com/) to build multi-platform binaries that are available on the [releases tab](https://github.com/tavaresrodrigo/godicio/releases) of this repository. 
 
