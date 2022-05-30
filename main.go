@@ -1,7 +1,9 @@
 package main
 
-import "pkg/godicio"
+import (
+	"github.com/tavaresrodrigo/godicio/cmd"
+)
 
 func main() {
-    godicio.Execute()
+	cmd.Execute()
 }

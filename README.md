@@ -1,20 +1,24 @@
 # GoDicio
 
-A Web scrapper tha returns word's meaning from DICIO - Dicionário Online de Português https://www.dicio.com.br/.
+Godicio is a CLI tool to search for words definitions in online dictionaries, it helps CLI people to use a dictionary from the Terminal in different lanaguages as English, Spanish and Portuguese.
+	
+### Example:
+	
+	Searching for the Portuguese word "amigo".
 
-## How to
+	```
+	$godicio pt amigo
+    ```
 
-For Linux Users:
+	Searching for the English word "friend".
+	
+    ```
+	$gdicio en friend
+    ```
+	
+	Searching for the Spanish word "amigo".
+    
+    ```
+    $godicio es amigo
+    ```
 
-```
-$ yum install godicio
-```
-For Mac Users:
-
-```
-$ brew install godicio
-```
-
-For Windows Users:
-
-In progress.
