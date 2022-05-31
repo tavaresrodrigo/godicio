@@ -1,6 +1,6 @@
 # GoDicio
 
-Godicio is a CLI tool to search for words definitions in online dictionaries, it helps CLI people to use a dictionary from the Terminal in different languages as English, Spanish and Portuguese.
+Godicio is a CLI tool to search for words definitions in online dictionaries, it helps CLI people to use a dictionary from the Terminal in different languages as English, French and Portuguese.
 	
 ## Example
 	
@@ -16,10 +16,10 @@ Searching for the English word "truth".
 $godicio en truth
 ```
 
-Searching for the Spanish word "verdad".
+Searching for the Spanish word "ville".
 
 ```
-$godicio es verdad
+$godicio fr ville
 ```
 
 ## Installing GoDicio
