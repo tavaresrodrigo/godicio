@@ -1,27 +1,20 @@
 /*
-Copyright © 2022 NAME HERE <EMAIL ADDRESS>
+Copyright © 2022 Rodrigo Tavares <rodrigo.actavares@gmail.com>
 
 */
 package cmd
 
 import (
-	"fmt"
-
 	"github.com/spf13/cobra"
 )
 
-// enCmd represents the en command
+// ptCmd represents the pt command
 var enCmd = &cobra.Command{
 	Use:   "en",
-	Short: "A brief description of your command",
-	Long: `A longer description that spans multiple lines and likely contains examples
-and usage of using your command. For example:
-
-Cobra is a CLI library for Go that empowers applications.
-This application is a tool to generate the needed files
-to quickly create a Cobra application.`,
+	Short: "Get the word definition in English",
+	Long: `This command will get the word definition in English from oxfordlearnersdictionaries.com/.`,
 	Run: func(cmd *cobra.Command, args []string) {
-		fmt.Println("English dictionary not available yet. Work in progress.")
+		dictionary.GetENWord(args)
 	},
 }
 
@@ -32,9 +25,12 @@ func init() {
 
 	// Cobra supports Persistent Flags which will work for this command
 	// and all subcommands, e.g.:
-	// enCmd.PersistentFlags().String("foo", "", "A help for foo")
+	// ptCmd.PersistentFlags().String("foo", "", "A help for foo")
 
 	// Cobra supports local flags which will only run when this command
 	// is called directly, e.g.:
-	// enCmd.Flags().BoolP("toggle", "t", false, "Help message for toggle")
+	// ptCmd.Flags().BoolP("toggle", "t", false, "Help message for toggle")
 }
+
+
+

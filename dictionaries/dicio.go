@@ -6,7 +6,6 @@ import (
 	"github.com/gocolly/colly/v2"
 )
 
-var wordList [][]string
 func GetPTWord(arg[]string) {
     c := colly.NewCollector()
 	var wordList []string
