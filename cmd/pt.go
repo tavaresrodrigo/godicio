@@ -6,6 +6,7 @@ package cmd
 
 import (
 	"github.com/spf13/cobra"
+	"github.com/tavaresrodrigo/godicio/dicio"
 )
 
 // ptCmd represents the pt command
@@ -14,7 +15,7 @@ var ptCmd = &cobra.Command{
 	Short: "Get the word definition in Portuguese",
 	Long: `This command will get the word definition in Portuguese from dicio.com.br.`,
 	Run: func(cmd *cobra.Command, args []string) {
-		dictionary.GetPTWord(args)
+		dicio.GetPTWord(args)
 	},
 }
 

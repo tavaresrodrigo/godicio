@@ -6,6 +6,7 @@ package cmd
 
 import (
 	"github.com/spf13/cobra"
+	"github.com/tavaresrodrigo/godicio/oxford"
 )
 
 // ptCmd represents the pt command
@@ -14,7 +15,7 @@ var enCmd = &cobra.Command{
 	Short: "Get the word definition in English",
 	Long: `This command will get the word definition in English from oxfordlearnersdictionaries.com/.`,
 	Run: func(cmd *cobra.Command, args []string) {
-		dictionary.GetENWord(args)
+		oxford.GetENWord(args)
 	},
 }
 
