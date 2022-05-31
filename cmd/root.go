@@ -10,7 +10,7 @@ import (
 var rootCmd = &cobra.Command{
 	Use:   "godicio",
 	Short: "Godicio is a CLI tool to search for words definitions in online dictionaries",
-	Long: `Godicio helps CLI people to use a dictionary from the Terminal in different lanaguages as English, Spanish and Portuguese.
+	Long: `Godicio helps CLI people to use a dictionary from the Terminal in different lanaguages as English, French and Portuguese.
 	
 
 Examples:
@@ -23,7 +23,7 @@ Examples:
 
 	$godicio en friend
 	
-	Searching for the Spanish word "amor":
+	Searching for the French word "amor":
 	
 	$godicio es amor
 

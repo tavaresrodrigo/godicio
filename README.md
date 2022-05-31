@@ -16,7 +16,7 @@ Searching for the English word "truth".
 $godicio en truth
 ```
 
-Searching for the Spanish word "ville".
+Searching for the French word "ville".
 
 ```
 $godicio fr ville
